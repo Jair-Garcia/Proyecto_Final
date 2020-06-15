@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Proyecto final</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <link  rel="icon"   href="imagenes/fav.png" type="image/png" />  
+      <!--<script src="js/alumnos.js"></script>-->
+</head>
+
+<body style="background-color:skyblue;">
+  <h1>Proyecto</h1>
+
+          <div>
+              <div class="form">
+
+                 <div class="registros"> 
+                      <!--<form action="javascript:void(0)" name="additem" -->
+                        <h3>Agregar nuevo Alumno</h3>
+                        <label >  Id </label>
+                        <input type="number" id="Iid"  min="1" max="10" disabled value="0">
+                        <br>
+                      <label>Nombre</label>
+                      <input type="text"  id="nombre" placeholder="Pánfilo Villalobos"  required autofocus>
+                      <br>
+                      <label >Edad</label>
+                      <input type="number"  id="edad" min="16" placeholder="Tu Edad" required>
+                      <br>
+                      <label >Sexo</label>
+                      <input type="text" style="text-transform:uppercase;" 
+                       maxlength="1" id="sexo" placeholder="M/F" required>
+                      <br>
+                      <label >Carrera</label>
+                      <input type="text"  id="carrera" placeholder="Carrera Cursada" required>
+                      <br>
+                      <label >Semestre</label>
+                      <input type="number"  id="semestre" placeholder="Semestre" min="1" max="9" required>
+                        <!--</form>-->
+
+                  </div>
+                        
+              </div>
+              <button id="bagregar" type="button"class="btn btn-success" >Enviar</button>
+              <br>
+              <div>
+                <br>
+                <button id="bbuscar" type="button"class="btn btn-success">Mostrar Alumnos</button> 
+                <input type="number"  id="buscar" placeholder="ID A Buscar" min="1">
+              </div>
+         </div>
+         
+         <div>
+          <div id="estudiantes" class=".estudiantes">
+              <!--aqui se muestran todos los alumnos-->
+              <form>
+                  <div id=".estudiantes">
+  
+                      <table class="table">
+  
+                          <thead class="thead-dark">
+  
+                              <tr>
+                                  <th>ID</th>
+                                  <th>Nombre</th>
+                                  <th>Edad</th>
+                                  <th>Sexo</th>
+                                  <th>Carrera</th>
+                                  <th>Semestre</th>
+  
+                              </tr>
+                          </thead>
+  
+                      </table>
+              </form>
+              </div>
+          </div>
+<script src="app.js"></script>
+  </body>
+</html>

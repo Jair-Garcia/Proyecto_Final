@@ -1,0 +1,19 @@
+/*Aquí se recibe todo el texto xd*/
+
+.registros{
+    position: relative;
+    width: 400px;
+    height: 250px;
+    padding-left: 20px;
+    padding-top: 15px;
+    background-color: darkgray;
+    border-radius: 20px;
+    margin: auto;
+}
+
+label{
+    margin: 11px 20px 0 0;
+    font-size: 16px;
+    color: black;
+    text-transform: capitalize;
+}

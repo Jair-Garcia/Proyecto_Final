@@ -1,0 +1,20 @@
+{
+  "name": "proyectoprogra",
+  "version": "1.0.0",
+  "description": "Primer API",
+  "main": "api.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "underscore": "^1.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon api.js"
+  },
+  "author": "Jair Garcia",
+  "license": "ISC"
+}
